@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg38"
+   version="1.1"
+   style="overflow:visible"
+   viewBox="-250 -250 500 500"
+   height="1000px"
+   width="1000px">
+  <metadata
+     id="metadata44">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs42" />
+  <rect
+     id="rect2"
+     fill-opacity="0"
+     fill="rgb(0,0,0)"
+     height="500"
+     width="500"
+     y="-250"
+     x="-250" />
+  <svg
+     id="svg30"
+     version="1.1"
+     y="-232"
+     x="-250"
+     viewBox="-250 -250 500 500"
+     height="500"
+     width="500"
+     style="overflow:visible">
+    <g
+       style="fill:#ffffff;stroke-linejoin:round"
+       id="g28">
+      <path
+         style="fill:#aecfff;fill-opacity:1;stroke:#000000;stroke-width:10;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+         id="path4"
+         d="M 0,148.909 -197,-36.262 -45.715,-76.8071 Z" />
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:10;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+         id="path6"
+         d="M 0,148.909 197,-36.262 52.861,-77.0062 Z" />
+      <path
+         style="fill:#4793ff;fill-opacity:1;stroke:#000000;stroke-width:10;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+         id="path8"
+         d="M 118.508,-148.908 71.549799,-36.262001 H 197.0008 Z" />
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:10;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+         id="path10"
+         d="M 0,-148.908 H 118.508 L 98.5002,-36.262001 21.4338,-66.173201 Z" />
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:10;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+         id="path12"
+         d="m -118.508,-148.908 57.262799,112.645999 H -197.0002 Z" />
+      <path
+         style="fill:#beedff;fill-opacity:1;stroke:#000000;stroke-width:10;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+         id="path14"
+         d="m 0,-148.908 h -118.508 l 20.0078,112.645999 75.843,-30.4826 z" />
+      <path
+         style="fill:#beedff;fill-opacity:1;stroke:none;stroke-linecap:butt;stroke-linejoin:round"
+         id="path16"
+         d="M -22.657001,-66.745001 1.99e-4,148.909 98.500299,-36.262001 Z" />
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-linecap:butt;stroke-linejoin:round"
+         id="path18"
+         d="M -98.5,-36.263001 1e-4,148.908 V -64.874001 Z" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:10;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+         id="path20"
+         d="M -98.5,-36.263001 1e-4,148.908 98.5003,-36.263001 Z" />
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-linecap:butt;stroke-linejoin:round"
+         id="path22"
+         d="M 0,-148.908 -23.1772,-86.288901 0,-36.262101 h 98.5002 z" />
+      <path
+         style="fill:#8ebdff;fill-opacity:1;stroke:none;stroke-linecap:butt;stroke-linejoin:round"
+         id="path24"
+         d="M 0,-148.908 -98.5001,-36.262001 H 0 Z" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:10;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+         id="path26"
+         d="m 0,-148.908 -98.5001,112.645999 h 197 z" />
+    </g>
+  </svg>
+  <svg
+     id="svg36"
+     version="1.1"
+     y="-385"
+     x="-425"
+     viewBox="-250 -250 500 500"
+     height="500"
+     width="500"
+     style="overflow:visible">
+    <g
+       style="fill:#ffffff;stroke-linejoin:round"
+       id="g34"
+       transform="rotate(-34)">
+      <path
+         style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:10;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+         id="path32"
+         d="m -4.561225,-63.321553 c 0,37.607629 -30.278477,67.8861 -67.8861,67.8861 37.607623,0 67.8861,30.275147 67.8861,67.88277 0,-37.607624 30.275135,-67.882771 67.88277,-67.882771 -37.607635,0 -67.882771,-30.278471 -67.882771,-67.8861 z" />
+    </g>
+  </svg>
+</svg>

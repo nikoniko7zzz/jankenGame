@@ -1,0 +1,104 @@
+<!doctype html>
+<html class="no-js" lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>0506</title>
+  <meta name="description" content=“楽しいじゃんけんゲームです。みんなで遊ぼう！”>
+  <meta property="og:title" content="じゃんけんゲーム">
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="#" />
+  <meta property="og:site_name" content="じゃんけんゲーム" />
+  <meta property="og:description" content="楽しいじゃんけんゲームです。みんなで遊ぼう！" />
+  <meta name="format-detection" content="telephone=no">
+  <link rel="canonical" href="#">
+  <link rel="stylesheet" type="text/css" href="css/reset.css" />
+  <link rel="stylesheet" type="text/css" href="css/sanitize.css" />
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <!-- ▼神 bootstrapのスタイルシート -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+  <div class="food">
+    <img src="img/food1.png" alt="メインの画像" id="yuuwaku">
+    <img src="img/food2.png" alt="メインの画像" id="yuuwaku">
+    <img src="img/food3.png" alt="メインの画像" id="yuuwaku">
+    <img src="img/food4.png" alt="メインの画像" id="yuuwaku">
+    <img src="img/food5.png" alt="メインの画像" id="yuuwaku">
+    <img src="img/food6.png" alt="メインの画像" id="yuuwaku">
+    <img src="img/food7.png" alt="メインの画像" id="yuuwaku">
+    <img src="img/food8.png" alt="メインの画像" id="yuuwaku">
+  </div>_
+  
+  <main>
+    <div class="left">
+      <div id="flowing_text">
+        <div>
+          <p id="flowing_box_1">おやつが食べたくなったら、じゃんけんの妖精とゲームをしよう</p>
+          <p id="flowing_box_2">食欲に勝てる ストーン をもらおう</p>
+        </div>
+      </div>
+
+      <div class="妖精">
+        <div class="妖精画像"><img src="img/妖精.jpg" alt="妖精の画像" id="fairy"></div>
+        <div id="赤丸"></div>
+      </div>
+      <div class="結果表示ゾーン">
+        <p id="flowing_box_bottom">じゃんけんゲームをしよう</p>
+      </div>
+      <div class="操作枠">
+        <div class="じゃんけん押しボタン">
+          <div class="start">
+            <a href="#" id="btn_push">START</a>
+          </div>
+          <div class="btn_s">
+            <!-- <li><a href="#" class="bt-samp42" id="start_btn">GAME</a></li> -->
+            <img src="img/ぐー.png" id="0" class="btn">
+            <img src="img/ちょき.png" id="1" class="btn">
+            <img src="img/ぱー.png" id="2" class="btn">
+          </div>
+        </div>
+      </div>
+    </div><!-- left -->
+
+    <div class="right">
+      <div class="太った絵">
+        <div>
+          <img src="img/820c7472e724acf10982278a84ceb761_t.jpeg" alt="太った絵" id="debu">
+        </div>
+        
+        <div class="messege">
+          <p>妖精に勝って</p>
+          <p>３つのストーンを集めよう</p>
+        </div>
+        <div class="stones">
+          <div><img src="img/石1.jpg" alt="1個目の石" id="stone_1"></div>
+          <div><img src="img/石1.jpg" alt="2個目の石" id="stone_2"></div>
+          <div><img src="img/石1.jpg" alt="3個目の石" id="stone_3"></div>
+        </div><!-- stones -->
+        <p id="three">３つそろった！</p>
+      </div><!-- 太った絵 -->
+      <!-- <div class="褒め言葉">
+        <p id="flowing_box_debu">テキストテキスト</p>
+      </div> -->
+    </div><!-- right -->
+  </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="index.js"></script>
+  
+
+</body>
+
+</html>

@@ -1,0 +1,262 @@
+@charset "UTF-8";
+
+/* 共通部分
+------------------------------- */
+/*　パディングをサイズ内側にする処理　*/
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+    background-color: lightpink;
+    display: flex;
+    justify-content:center;
+}
+body{
+    font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+    line-height: 1.7;
+    color: #432;
+    width: 960px;
+    
+}
+
+li {
+    text-decoration: none;
+}
+img {
+    width:auto;
+    height:auto;
+    max-width:100%;
+    max-height:100%;
+}
+
+/* 間食がガマンできない.png */
+
+/* #food
+------------------------------- */
+.food {
+  /* 右斜め */
+  background-color: #f7c6bd;
+  background-image:
+  repeating-linear-gradient(-45deg,
+  #fff, #fff 7px,
+  transparent 0, transparent 14px);
+
+  /* height: 90px; */
+  display: block;
+  display: flex;
+  justify-content: space-between;
+  /* text-align: center; */
+}
+.food img {
+  height: 10%;
+  width: 10%;
+}
+/* #大きいスクリーン
+------------------------------- */
+main {
+  display: flex;
+} 
+/* left
+------------------------------- */
+.left {
+  width: 700px;
+}
+/* flowing_text
+------------------------------- */
+#flowing_box_1, #flowing_box_2 {
+  font-size:18px;
+  padding: 0 20px;
+  text-align: center;
+  margin:0;
+}
+
+/* 妖精
+------------------------------- */
+.妖精 {
+  /* margin: 0 auto; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.妖精画像 {
+  height: 300px;
+}
+#赤丸 {
+  height: 300px;
+  width: 300px;
+  border: 10px solid red;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+/* じゃんけん押しボタン
+------------------------------- */
+#flowing_box_bottom {
+  font-size:25px;
+  padding: 0 20px;
+  text-align: center;
+  margin:0;
+}
+
+.操作枠 {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.じゃんけん押しボタン {
+  width: 700px;
+  height: 120px;
+  /* padding: 0 180px; */
+  display: flex;
+  /* justify-content:space-between; */
+  align-items: center;
+
+}
+.btn_s {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.btn{
+  display: block;
+  height: 80px;
+  width: 80px;
+  margin: 0 auto;
+  border:1px solid #97cdf3;
+  border-radius: 50%;
+  margin: 0 5px;
+  background-color: #97cdf3;;
+}
+.btn:hover {
+  border:8px solid #f67690;
+}
+
+.start {
+  margin: 0 30px;
+}
+#btn_push {
+  display: inline-block;
+  max-width: 180px;
+  text-align: left;
+  background-color: #ffa300;
+  font-size: 16px;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 24px;
+  border-radius: 4px;
+  border-bottom: 4px solid #d37800;
+}
+
+#btn_push:active {
+    transform: translateY(4px);
+    border-bottom: none;
+}
+
+
+
+/* right
+------------------------------- */
+.right {
+  border:10px solid burlywood;
+  /* background-color: burlywood; */
+  border-radius: 10px;
+  padding-right:20px;
+  padding-left:20px;
+  height: 380px;
+  /* display: flex;
+  justify-content:center;
+  flex-direction: column;   */
+}
+.太った絵 {
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.messege p{
+  margin: 0;
+}
+#debu {
+  margin: 150px 0 10px;
+}
+.stones {
+  display:flex;
+  justify-content:space-between; 
+  align-items: center;
+}
+#stone_1,#stone_2,#stone_3 {
+  height: 50px;
+  width: 50px;
+}
+#three {
+  font-size: 20px;
+  color: coral;
+}
+
+
+
+
+
+
+/* goal
+------------------------------- */
+.goal {
+background-color: antiquewhite;
+ padding: 100px 0;
+}
+.goal_text {
+ width: 400px;
+ margin: 0 auto;
+}
+.goal_text p{
+  font-size: 20px;
+}
+.center {
+  text-align: center;
+  font-weight: bold;
+}
+.項目 {
+  margin-bottom: 4px;
+}
+#goal_push {
+  display: inline-block;
+  max-width: 250px;
+  text-align: left;
+  background-color: #ffa300;
+  font-size: 16px;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 24px;
+  border-radius: 4px;
+  border-bottom: 4px solid #d37800;
+}
+
+#goal_push:active {
+    transform: translateY(4px);
+    border-bottom: none;
+}
+.container {
+  text-align: center;  
+  margin:30px 0 100px;
+}
